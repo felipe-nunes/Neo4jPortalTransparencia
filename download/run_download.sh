@@ -47,3 +47,7 @@ curl "http://200.152.38.155/CNPJ/F.K03200$Z.D20514.NATJUCSV.zip" | gsutil cp - g
 curl "http://200.152.38.155/CNPJ/F.K03200$Z.D20514.PAISCSV.zip" | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/ATRIBUTO_PAIS.zip
 # DOWNLOAD DE DADOS DE ATRIBUTO QUALIFICACAO DOS SOCIOS 
 curl "http://200.152.38.155/CNPJ/F.K03200$Z.D20514.QUALSCSV.zip" | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/QUALIFICACAO_SOCIOS.zip
+# DOWNLOAD DE LAYOUT DOS ARQUIVOS DE DADOS DE SOCIOS
+curl "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/consultas/arquivos/leiaute-dos-arquivos.pdf" | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/LAYOUT_SOCIOS.pdf
+# DOWNLOAD DE REGIMES TRIBUTARIOS
+curl "http://200.152.38.155/CNPJ/anual/Dados%20Abertos%20S%c3%adtio%20RFB%20Extracao%2020.10.2021.zip" | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/REGIMES_TRIBUTARIOS.ZIP
