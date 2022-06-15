@@ -1,21 +1,21 @@
 # DATA DA ULTIMA EXTRACAO DESTES ARQUIVOS : 17/05/2022
 # https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/consultas/dados-publicos-cnpj
 # DOWNLOAD DE DADOS PUBLICOS DE EMPRESAS
-curl http://200.152.38.155/CNPJ/K3241.K03200Y0.D20514.EMPRECSV.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/EMPRESASCSV01.zip
-curl http://200.152.38.155/CNPJ/K3241.K03200Y1.D20514.EMPRECSV.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/EMPRESASCSV02.zip
-curl http://200.152.38.155/CNPJ/K3241.K03200Y2.D20514.EMPRECSV.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/EMPRESASCSV03.zip
-curl http://200.152.38.155/CNPJ/K3241.K03200Y3.D20514.EMPRECSV.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/EMPRESASCSV04.zip
-curl http://200.152.38.155/CNPJ/K3241.K03200Y4.D20514.EMPRECSV.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/EMPRESASCSV05.zip
-curl http://200.152.38.155/CNPJ/K3241.K03200Y5.D20514.EMPRECSV.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/EMPRESASCSV06.zip
-curl http://200.152.38.155/CNPJ/K3241.K03200Y6.D20514.EMPRECSV.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/EMPRESASCSV07.zip
-curl http://200.152.38.155/CNPJ/K3241.K03200Y7.D20514.EMPRECSV.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/EMPRESASCSV08.zip
-curl http://200.152.38.155/CNPJ/K3241.K03200Y8.D20514.EMPRECSV.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/EMPRESASCSV09.zip
-curl http://200.152.38.155/CNPJ/K3241.K03200Y9.D20514.EMPRECSV.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/EMPRESASCSV10.zip
+# curl http://200.152.38.155/CNPJ/K3241.K03200Y0.D20514.EMPRECSV.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/EMPRESASCSV01.zip
+# curl http://200.152.38.155/CNPJ/K3241.K03200Y1.D20514.EMPRECSV.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/EMPRESASCSV02.zip
+# curl http://200.152.38.155/CNPJ/K3241.K03200Y2.D20514.EMPRECSV.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/EMPRESASCSV03.zip
+# curl http://200.152.38.155/CNPJ/K3241.K03200Y3.D20514.EMPRECSV.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/EMPRESASCSV04.zip
+# curl http://200.152.38.155/CNPJ/K3241.K03200Y4.D20514.EMPRECSV.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/EMPRESASCSV05.zip
+# curl http://200.152.38.155/CNPJ/K3241.K03200Y5.D20514.EMPRECSV.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/EMPRESASCSV06.zip
+# curl http://200.152.38.155/CNPJ/K3241.K03200Y6.D20514.EMPRECSV.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/EMPRESASCSV07.zip
+# curl http://200.152.38.155/CNPJ/K3241.K03200Y7.D20514.EMPRECSV.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/EMPRESASCSV08.zip
+# curl http://200.152.38.155/CNPJ/K3241.K03200Y8.D20514.EMPRECSV.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/EMPRESASCSV09.zip
+# curl http://200.152.38.155/CNPJ/K3241.K03200Y9.D20514.EMPRECSV.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/EMPRESASCSV10.zip
 # DOWNLOAD DE DADOS PUBLICOS DE ESTABELECIMENTOS
-curl http://200.152.38.155/CNPJ/K3241.K03200Y0.D20514.ESTABELE.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/ESTABELECIMENTOSCSV01.zip
-curl http://200.152.38.155/CNPJ/K3241.K03200Y1.D20514.ESTABELE.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/ESTABELECIMENTOSCSV02.zip
-curl http://200.152.38.155/CNPJ/K3241.K03200Y2.D20514.ESTABELE.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/ESTABELECIMENTOSCSV03.zip
-curl http://200.152.38.155/CNPJ/K3241.K03200Y3.D20514.ESTABELE.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/ESTABELECIMENTOSCSV04.zip
+# curl http://200.152.38.155/CNPJ/K3241.K03200Y0.D20514.ESTABELE.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/ESTABELECIMENTOSCSV01.zip
+# curl http://200.152.38.155/CNPJ/K3241.K03200Y1.D20514.ESTABELE.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/ESTABELECIMENTOSCSV02.zip
+# curl http://200.152.38.155/CNPJ/K3241.K03200Y2.D20514.ESTABELE.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/ESTABELECIMENTOSCSV03.zip
+# curl http://200.152.38.155/CNPJ/K3241.K03200Y3.D20514.ESTABELE.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/ESTABELECIMENTOSCSV04.zip
 curl http://200.152.38.155/CNPJ/K3241.K03200Y4.D20514.ESTABELE.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/ESTABELECIMENTOSCSV05.zip
 curl http://200.152.38.155/CNPJ/K3241.K03200Y5.D20514.ESTABELE.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/ESTABELECIMENTOSCSV06.zip
 curl http://200.152.38.155/CNPJ/K3241.K03200Y6.D20514.ESTABELE.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/ESTABELECIMENTOSCSV07.zip
