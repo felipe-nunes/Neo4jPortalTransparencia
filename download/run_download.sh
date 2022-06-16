@@ -34,21 +34,29 @@ curl http://200.152.38.155/CNPJ/K3241.K03200Y7.D20514.SOCIOCSV.zip | gsutil cp -
 curl http://200.152.38.155/CNPJ/K3241.K03200Y8.D20514.SOCIOCSV.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/0_RAW_DATASET/SOCIOSCSV09.zip
 curl http://200.152.38.155/CNPJ/K3241.K03200Y9.D20514.SOCIOCSV.zip | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/0_RAW_DATASET/SOCIOSCSV10.zip
 # DOWNLOAD DE DADOS DE INFORMACOES SOBRE O SIMPLES NACIONAL E MEI
-curl "http://200.152.38.155/CNPJ/F.K03200$W.SIMPLES.CSV.D20514.zip" | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/0_RAW_DATASET/SIMPLES_MEI.zip
+# curl "http://200.152.38.155/CNPJ/F.K03200$W.SIMPLES.CSV.D20514.zip" | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/0_RAW_DATASET/SIMPLES_MEI.zip
+# BAIXAR MANUALMENTE
 # DOWNLOAD DA TABELA DE ATRIBUTO CNAE
-curl "http://200.152.38.155/CNPJ/F.K03200$Z.D20514.CNAECSV.zip" | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/0_RAW_DATASET/SIMPLES_MEI.zip
+# curl "http://200.152.38.155/CNPJ/F.K03200$Z.D20514.CNAECSV.zip" | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/0_RAW_DATASET/ATRIBUTO_CNAE.zip
+# BAIXAR MANUALMENTE
 # DOWNLOAD DA TABELA DE MOTIVO DE SITUACAO CADASTRAL
-curl "http://200.152.38.155/CNPJ/F.K03200$Z.D20514.MOTICSV.zip" | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/0_RAW_DATASET/SITUACAO_CADASTRAL.zip
+# curl "http://200.152.38.155/CNPJ/F.K03200$Z.D20514.MOTICSV.zip" | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/0_RAW_DATASET/SITUACAO_CADASTRAL.zip
+# BAIXAR MANUALMENTE
 # DOWNLOAD DE DADOS DE ATRIBUTO MUNICIPIO
 # curl "http://200.152.38.155/CNPJ/F.K03200$Z.D20514.MUNICCSV.zip" | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/0_RAW_DATASET/ATRIBUTO_MUNICIPIO.zip
 # BAIXAR MANUALMENTE
 # DOWNLOAD DE DADOS DE ATRIBUTO NATUREZA JURIDICA
-curl "http://200.152.38.155/CNPJ/F.K03200$Z.D20514.NATJUCSV.zip" | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/0_RAW_DATASET/NATUREZA_JURIDICA.zip
+# curl "http://200.152.38.155/CNPJ/F.K03200$Z.D20514.NATJUCSV.zip" | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/0_RAW_DATASET/NATUREZA_JURIDICA.zip
+# BAIXAR MANUALMENTE
 # DOWNLOAD DE DADOS DE ATRIBUTO PAIS 
-curl "http://200.152.38.155/CNPJ/F.K03200$Z.D20514.PAISCSV.zip" | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/0_RAW_DATASET/ATRIBUTO_PAIS.zip
+# curl "http://200.152.38.155/CNPJ/F.K03200$Z.D20514.PAISCSV.zip" | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/0_RAW_DATASET/ATRIBUTO_PAIS.zip
+# BAIXAR MANUALMENTE
 # DOWNLOAD DE DADOS DE ATRIBUTO QUALIFICACAO DOS SOCIOS 
-curl "http://200.152.38.155/CNPJ/F.K03200$Z.D20514.QUALSCSV.zip" | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/1_DOCUMENTATION/QUALIFICACAO_SOCIOS.zip
+# curl "http://200.152.38.155/CNPJ/F.K03200$Z.D20514.QUALSCSV.zip" | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/1_DOCUMENTATION/QUALIFICACAO_SOCIOS.zip
+# BAIXAR MANUALMENTE
 # DOWNLOAD DE LAYOUT DOS ARQUIVOS DE DADOS DE SOCIOS
-curl "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/consultas/arquivos/leiaute-dos-arquivos.pdf" | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/LAYOUT_SOCIOS.pdf
+# curl "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/consultas/arquivos/leiaute-dos-arquivos.pdf" | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/LAYOUT_SOCIOS.pdf
+# BAIXAR MANUALMENTE
 # DOWNLOAD DE REGIMES TRIBUTARIOS
-curl "http://200.152.38.155/CNPJ/anual/Dados%20Abertos%20S%c3%adtio%20RFB%20Extracao%2020.10.2021.zip" | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/0_RAW_DATASET/REGIMES_TRIBUTARIOS.ZIP
+# curl "http://200.152.38.155/CNPJ/anual/Dados%20Abertos%20S%c3%adtio%20RFB%20Extracao%2020.10.2021.zip" | gsutil cp - gs://neo4j_nunes/dp_socios_dataset/0_RAW_DATASET/REGIMES_TRIBUTARIOS.ZIP
+# BAIXAR MANUALMENTE
