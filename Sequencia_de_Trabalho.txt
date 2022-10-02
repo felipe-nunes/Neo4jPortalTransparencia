@@ -1,0 +1,10 @@
+- Verificar no arquivo run_download.sh vs o site da receita federal se os enderecos de download estao iguais
+- Verificar se o Google Storage esta com os diretorios de destino corretamente definidos
+- Entrar na vm que for ser feito o download e executar o comando de git dentro de um diretorio de dados temporario
+git clone https://github.com/felipe-nunes/Neo4jPortalTransparencia.git
+cd ./Neo4jPortalTransparencia
+sudo passwd 
+chmod +x run_download.sh
+chmod +x run_bulk_decompress.sh
+./run_download.sh
+- 
