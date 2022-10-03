@@ -9,6 +9,9 @@ cd ./Neo4jPortalTransparencia/download
 sudo passwd 
 chmod +x run_download.sh
 chmod +x run_bulk_decompress.sh
-./run_download.sh
+- digite screen
+- rode o processo ./run_download.sh
+- aperte ctrl a e ctrl d
+- para retornar veja com screen -r e tb pode ver o diretorio com ls -la
+- screen -ls | grep pts | cut -d. -f1 | awk '{print $1}' | xargs kill <- para matar todos os screens
 - O download eh lento. Tem de observar o andar dele com o tempo. 
-- https://stackoverflow.com/questions/48221807/google-cloud-instance-terminate-after-close-browser
