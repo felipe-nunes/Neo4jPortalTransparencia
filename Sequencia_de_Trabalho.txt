@@ -11,4 +11,4 @@ chmod +x run_download.sh
 chmod +x run_bulk_decompress.sh
 ./run_download.sh
 - O download eh lento. Tem de observar o andar dele com o tempo. 
-- 
+- https://stackoverflow.com/questions/48221807/google-cloud-instance-terminate-after-close-browser
