@@ -1,10 +1,14 @@
+- Referencia para relacional esta aqui -> https://lucid.app/ <- com fnunes360
 - Verificar no arquivo run_download.sh vs o site da receita federal se os enderecos de download estao iguais
 - Verificar se o Google Storage esta com os diretorios de destino corretamente definidos
+- Entrar no Google Shell 
+gcloud compute ssh neo4j-srv-brz-01
 - Entrar na vm que for ser feito o download e executar o comando de git dentro de um diretorio de dados temporario
 git clone https://github.com/felipe-nunes/Neo4jPortalTransparencia.git
-cd ./Neo4jPortalTransparencia
+cd ./Neo4jPortalTransparencia/download
 sudo passwd 
 chmod +x run_download.sh
 chmod +x run_bulk_decompress.sh
 ./run_download.sh
+- O download eh lento. Tem de observar o andar dele com o tempo. 
 - 
